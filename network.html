@@ -1,0 +1,245 @@
+<html lang="en">
+<head>
+    <title>Operating Systems Terminology</title>
+</head>
+<body style="color:#F24C00; background-color: #F9C784; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+<table border="10" width="900" 
+        style="color: #485696; background-color: #E7E7E7; text-align:left;">
+        <tr>
+            <td colspan = "4"><h1 style="color:#F24C00">Chapter 4 Terms</h1></td>
+        </tr>    
+        <tr>
+                <td colspan = "4"><h3>Network Classifications</h3></td>
+            </tr>
+            <tr>
+                <td>LAN</td>
+                <td>Local Area Network. A network that normally consists of a collection of computers in a single building or building complex.</td>
+            </tr>
+            <tr>
+                <td>MAN</td>
+                <td>Metropolitan Area Network. A network of of intermediate size, such as one spanning a local community.</td>
+            </tr>
+            <tr>
+                <td>WAN</td>
+                <td>Wide Area Network. A network that links machines over a greater distance, such as neighboring cities or opposite sides of the world.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>Network Models</h3></td>
+            </tr>
+            <tr>
+                <td>Bus network</td>
+                <td>When machines in a network communicate directly with each other over a common bus.</td>
+            </tr>
+            <tr>
+                <td>Star network</td>
+                <td>When machines in a network communicate indirectly with each other through an intermediary central machine.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>Protocols</h3></td>
+            </tr>
+            <tr>
+                <td>CSMA/CD Ethernet</td>
+                <td>Carrier Sense, Multiple Access with Collision Detection. This protocol dictates that each message be broadcast to all the machines on the bus.</td>
+            </tr>
+            <tr>
+                <td>CSMA/CA Wifi</td>
+                <td>Carrier Sense, Multiple Access with Collision Avoidance. When wireless networks adopt the policy of trying to avoid collisions rather than trying to detect them.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>Combining Networks</h3></td>
+            </tr>
+            <tr>
+                <td>Repeater</td>
+                <td>A device that passes signals back and forth between the two original buses (usually with some form of amplification) without considering the meaning of the signals.</td>
+            </tr>
+            <tr>
+                <td>Bridge</td>
+                <td>A bridge is similar to, but more complex than, a repeater. Like a repeater, it connects two buses, but it does not necessarily pass all messages across the connection. Instead, it looks at the destination address that accompanies each message and forwards a message across the connection only when that message is destined for a computer on the other side. Thus, two machines residing on the same side of a bridge can exchange messages without interfering with communication taking place on the other side. A bridge produces a more efficient system than that produced by a repeater.</td>
+            </tr>
+            <tr>
+                <td>Switch</td>
+                <td>A switch is essentially a bridge with multiple connections, allowing it to connect several buses rather than just two. Thus, a switch produces a network consisting of several buses extending from the switch, as spokes on a wheel. As in the case of a bridge, a switch considers the destination addresses of all messages and forwards only those messages destined for other spokes. Moreover, each message that is forwarded is relayed only into the appropriate spoke, thus minimizing the traffic in each spoke.</td>
+            </tr>
+            <tr>
+                <td>Router</td>
+                <td>The connection between networks to form an internet is handled by devices known as routers, which are special purpose computers used for forwarding messages.</td>
+            </tr>
+            <tr>
+                <td>Gateway</td>
+                <td>The “point” at which one network is linked to an internet is often called a gateway because it serves as a passageway between the network and the outside world.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>Client/Server Model</h3></td>
+            </tr>
+            <tr>
+                <td>P2P: peer-to-peer</td>
+                <td>A model of interprocess communication that involves processes that provide service to and receive service from each other. Moreover, whereas a server must execute continuously so that it is prepared to serve its clients at any time, the peer-to-peer model usually involves processes that execute on a temporary basis.</td>
+            </tr>
+            <tr>
+                <td>Distributed system</td>
+                <td>A distributed system, also known as distributed computing, is a system with multiple components located on different machines that communicate and coordinate actions in order to appear as a single coherent system to the end-user.</td>
+            </tr>
+            <tr>
+                <td>Cloud computing</td>
+                <td>Where huge pools of shared computers on the network can be allocated for use by clients as needed.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>Internet Addressing</h3></td>
+            </tr>
+            <tr>
+                <td>Tier 1</td>
+                <td>ISPs that consist of very high-speed, high-capacity, international WANs. These networks are thought of as the backbone of the Internet. They are typically operated by large companies that are in the communications business.</td>
+            </tr>
+            <tr>
+                <td>Tier 2</td>
+                <td>ISPs that tend to be more regional in scope and less potent in their capabilities.</td>
+            </tr>
+            <tr>
+                <td>Tier 3</td>
+                <td>A Tier 3/Access ISP is essentially an independent Internet, sometimes called an intranet, operated by a single authority that is in the business of supplying Internet access to individual homes and businesses.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>IP Address</h3></td>
+            </tr>
+            <tr>
+                <td>ICANN:    <a href="https://www.icann.org/">Link here</a></td>
+                <td>Internet Corporation for Assigned Names and Numbers, which is a nonprofit corporation established to coordinate the Internet&#8217;s operation.</td>
+            </tr>
+            <tr>
+                <td>DNS</td>
+                <td>(Domain name system) a naming database in which internet domain names are located and translated into Internet Protocol (IP) addresses. The domain name system maps the name people use to locate a website to the IP address that a computer uses to locate that website.</td>
+            </tr>
+            <tr>
+                <td>TLD: Top-level domain</td>
+                <td>Top-level domains are suffixes used at the end of domain names to reflect the its classification.</td>
+            </tr>
+            <tr>
+                <td>County-code TLDs:   <a href= "https://www.worldstandards.eu/other/tlds/">Link here</a></td>
+                <td>A two-letter TLDs used to reflect specific countries all over the world.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>Internet protocols</h3></td>
+            </tr>
+            <tr>
+                <td>FTP</td>
+                <td>(File Transfer Protocol) An application used for listing and copying files across the network.</td>
+            </tr>
+            <tr>
+                <td>HTTP</td>
+                <td>(Hyper Text Transfer Protocol) The communications protocol used to connect to Web servers on the Internet or on a local network (intranet). The primary function of HTTP is to establish a connection with the server and send HTML pages back to the user's browser. It is also used to download data from the server either to the browser or to any requesting application that uses HTTP.</td>
+            </tr>
+            <tr>
+                <td>SMTP</td>
+                <td>(Simple Mail Transfer Protocol) defines a way that two computers on the network may interact when transmitting an email message from one host to the other.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>World Wide Web</h3></td>
+            </tr>
+            <tr>
+                <td>URL</td>
+                <td>(Uniform Resource Locator) A unique address used to locate and retrieve documents on the Web.</td>
+            </tr>
+            <tr>
+                <td>Client-side activities</td>
+                <td>Any operation performed at the user's computer.</td>
+            </tr>
+            <tr>
+                <td>Server-side activities</td>
+                <td>Any operation that is performed at the server.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>Internet four-layer software</h3></td>
+            </tr>
+            <tr>
+                <td>Application layer</td>
+                <td>The processing in a network protocol that provides the starting point and purpose of the communications session.</td>
+            </tr>
+            <tr>
+                <td>Transport layer</td>
+                <td>The processing in a network protocol that provides end-to-end management.</td>
+            </tr>
+            <tr>
+                <td>Network layer</td>
+                <td>The processing in a network protocol that manages transmission from network to network.</td>
+            </tr>
+            <tr>
+                <td>Link layer</td>
+                <td>The processing in a network protocol that manages transmission from node to node.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>Internet is:</h3></td>
+            </tr>
+            <tr>
+                <td>Packet-switching network</td>
+                <td>A type of computer communications network that groups and sends data in the form of small packets. It enables the sending of data or network packets between a source and destination node over a network channel that is shared between multiple users and/or applications.</td>
+            </tr>
+            <tr>
+                <td>Fault tolerant</td>
+                <td>The ability to continue non-stop when a hardware failure occurs. A fault-tolerant system is designed from the ground up for reliability by building multiples of all critical components, such as CPUs, memories, disks and power supplies into the same computer. In the event one component fails, another takes over without skipping a beat.</td>
+            </tr>
+            <tr>
+                <td>Redundant</td>
+                <td>Having a secondary peripheral, computer system or network device that takes over when the primary unit fails.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>Cybersecurity</h3></td>
+            </tr>
+            <tr>
+                <td>Malware</td>
+                <td>(MALicious softWARE) Software designed to destroy data, steal information or aggravate the user.</td>
+            </tr>
+            <tr>
+                <td>Virus</td>
+                <td>Software that infects a computer by inserting itself into programs that already reside in the machine. Then, when the “host” program is executed, the virus is also executed. When executed, many viruses do little more than try to transfer themselves to other programs within the computer. Some viruses, however, perform devastating actions such as degrading portions of the operating system, erasing large blocks of mass storage, or otherwise corrupting data and other programs.</td>
+            </tr>
+            <tr>
+                <td>Worm</td>
+                <td>A an autonomous program that transfers itself through a network, taking up residence in computers and forwarding copies of itself to other computers.</td>
+            </tr>
+            <tr>
+                <td>Trojan horse</td>
+                <td>A program that enters a computer system disguised as a desirable program, such as a game or useful utility package, that is willingly imported by the victim. Once in the computer, however, the Trojan horse performs additional activities that might have harmful effects.</td>
+            </tr>
+            <tr>
+                <td>Spyware</td>
+                <td>Software that collects information about activities at the computer on which it resides and reports that information back to the instigator of the attack.</td>
+            </tr>
+            <tr>
+                <td>Phishing</td>
+                <td>A technique of obtaining information explicitly by simply asking for it. The term phishing is a play on the word fishing because the process involved is to cast numerous “lines” in hopes that someone will “take the bait.”</td>
+            </tr>
+            <tr>
+                <td>DDoS attack</td>
+                <td>(Distributed Denial of Service) An assault on a network that floods it with so many requests that regular traffic is either slowed or completely interrupted. Unlike a virus or worm, which can cause severe damage to databases, a denial of service attack interrupts network service for some period.</td>
+            </tr>
+            <tr>
+                <td colspan= "4"><h3>Protection</h3></td>
+            </tr>
+            <tr>
+                <td>Firewall</td>
+                <td>The primary method for keeping a computer secure from intruders. A firewall allows or blocks traffic into and out of a private network or the user's computer.</td>
+            </tr>
+            <tr>
+                <td>Spam filter</td>
+                <td>Firewalls designed to block unwanted email.</td>
+            </tr>
+            <tr>
+                <td>Proxy server</td>
+                <td>A software unit that acts as an intermediary between a client and a server with the goal of shielding the client from adverse actions of the server.</td>
+            </tr>
+            <tr>
+                <td>Antivirus software</td>
+                <td>A software which is used to detect and remove the presence of known viruses and other infections.</td>
+            </tr>
+            <tr>
+                <td>Cryptography</td>
+                <td>The study of sending and receiving messages securely in the presence of adversaries.</td>
+            </tr>
+            <tr>
+                <td>Public key encryption</td>
+                <td>An encryption method that uses a two-part key: one private; the other public. Public key cryptography is also known as "asymmetric encryption" because the two keys are not the same.</td>
+            </tr>
+    </table>
+
+    </body>
+</html>
